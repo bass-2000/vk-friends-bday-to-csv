@@ -24,3 +24,7 @@ run{
     standardInput = System.in
 }
 
+wrapper {
+    gradleVersion = '6.6.1' //version required
+    distributionUrl = distributionUrl.replace("bin", "all")
+}
