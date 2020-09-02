@@ -1,0 +1,10 @@
+.gradle
+.idea
+out
+gradle
+gradlew
+gradlew.bat
+build
+
+friends.csv
+friends.json

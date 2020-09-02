@@ -1,0 +1,26 @@
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'bass2000'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+mainClassName = "bass2000.Main"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.vk.api:sdk:1.0.6"
+    compile "org.apache.logging.log4j:log4j-core:2.13.1"
+
+}
+
+run{
+    standardInput = System.in
+}
+
